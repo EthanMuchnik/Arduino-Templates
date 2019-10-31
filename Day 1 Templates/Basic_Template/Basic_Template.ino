@@ -4,7 +4,7 @@
 //                    WHAT IS THIS TEMPLATE?
 //This is a blank template that will be standard for all Arduino Code
 
-                      WHAT IS INSIDE OF THIS TEMPLATE?
+//                    WHAT IS INSIDE OF THIS TEMPLATE?
 //There are two functions. A function consists of its name - for example: setup: - and what goes inside of the curly brackets.
 
 void setup() {
