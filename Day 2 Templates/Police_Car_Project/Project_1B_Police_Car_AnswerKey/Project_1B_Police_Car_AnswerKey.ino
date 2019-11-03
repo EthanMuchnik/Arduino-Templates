@@ -1,8 +1,8 @@
-int LED1Pin = 2;
-int LED2Pin = 3;
-int buzzerPin = 4; 
+int LED1 = 2; //This is the pin that the electricity information will go to. Put in the correct number.
+int LED2 = 3;
+int buzzerPin = 4; //This will give electricity to the buzzer. Put in the correct number.
 int readPin = 7;
-int buttonPin = 8; 
+int buttonPin = 8; //This pin is the digitalWrite() pin and will give electricty. Put in the correct number.
 
 void setup() {
   Serial.begin(9600);
@@ -22,19 +22,19 @@ void loop() {
   if(reading == 1)
   {
     tone(buzzerPin, 1000);
-    digitalWrite(LED1Pin, HIGH);
-    digitalWrite(LED2Pin, LOW);
+    digitalWrite(LED1, HIGH);
+    digitalWrite(LED2, LOW);
     delay(200);
     
     tone(buzzerPin, 200);
-    digitalWrite(LED1Pin, LOW);
-    digitalWrite(LED2Pin, HIGH);
+    digitalWrite(LED1, LOW);
+    digitalWrite(LED2, HIGH);
     delay(200);
   }
   else if(reading == 0)
   {
     noTone(buzzerPin);
-    digitalWrite(LED1Pin, LOW);
-    digitalWrite(LED2Pin, LOW);
+    digitalWrite(LED1, LOW);
+    digitalWrite(LED2, LOW);
   }
 }
