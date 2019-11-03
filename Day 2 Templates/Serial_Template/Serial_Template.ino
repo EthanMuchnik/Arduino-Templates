@@ -2,6 +2,7 @@
 // Standard Serial printing template
 
 //                            Things to Rememeber
+// Serial.begin() Sets up the printing area
 // Serial.println(): prints anything you put into it
 
 
