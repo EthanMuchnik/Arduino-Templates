@@ -13,7 +13,7 @@
 //declare variables that are used in both functions outside of them
 
 
-//Write the pin that your wire is plugged into. (2-9)
+//Write the pin that your wire is plugged into. (2-13)
 int pin1 = ;
 int pin2 = ;
 
