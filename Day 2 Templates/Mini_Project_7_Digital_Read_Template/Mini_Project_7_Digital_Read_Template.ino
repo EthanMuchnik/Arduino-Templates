@@ -1,6 +1,6 @@
-//     Mini Project: Blink LED
-// Your code should make an LED turn on and off. It should switch states every second and run forever.
-
+//     Mini Project: Digital Read
+// If the button is pressed, print 1. If its is not pressed, print 0.
+//
 //                            Things to Rememeber
 // HIGH makes electricity go. LOW makes no electricity go.
 // OUTPUT: Make electricity flow. INPUT reads the amount of electricity flowing       
