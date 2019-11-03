@@ -1,4 +1,4 @@
-//                          Mini Project: Blink Code
+//                          Mini Project: Blink LED
 // Your code should make an LED turn on and off. It should switch states every second and run forever.
 
 //                            Things to Rememeber
