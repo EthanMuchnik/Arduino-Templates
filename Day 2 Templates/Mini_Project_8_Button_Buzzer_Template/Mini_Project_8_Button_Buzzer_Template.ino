@@ -16,7 +16,6 @@
 
 
 
-
 int readPin = ; //This is the pin that the electricity information will go to. Put in the correct number.
 int buzzerPin = ; //This will give electricity to the buzzer. Put in the correct number.
 int buttonPin = ; //This pin is the digitalWrite() pin and will give electricty. Put in the correct number.
