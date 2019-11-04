@@ -1,3 +1,12 @@
+//                Mini Project: A Line
+// Create a line which starts at x = 20 an y = 30. It ends with x= 40 and y= 50.
+//
+//                            Things to Rememeber
+// display.drawLine(x1,y1,x2,y2,color) - makes a line starting at point (x1,y1) and ending at point (x2,y2). It has a specified color
+// display.display() - makes the changes to the OLED display visible
+// display.clearDisplay() - delets everything on the display
+
+
 //A bunch of files with useful functions are imported
 #include "SPI.h"
 #include "Wire.h"
