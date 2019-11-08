@@ -12,7 +12,7 @@
 //declare variables that are used in both functions outside of them
 
 int pin = 5;
-int frequency = 500;
+int frequency = 3000;
 
 void setup() {
   //nothing to setup
@@ -20,5 +20,5 @@ void setup() {
 
 void loop() {
   //  Play a note at any frequency. See what happens when you change it. P.S only go between 50 and 13000. Write the correct variables in the function.
-  tone(5,500);
+  tone(pin,frequency);
 }

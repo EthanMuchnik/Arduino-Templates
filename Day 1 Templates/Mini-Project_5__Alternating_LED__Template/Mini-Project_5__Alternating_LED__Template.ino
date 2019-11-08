@@ -14,23 +14,23 @@
 
 
 //Write the pin that your wire is plugged into. (2-13)
-int pin1 = ;
-int pin2 = ;
+int pin1 = 6;
+int pin2 = 3;
 
 void setup() {
   // Set the mode of the pins to INPUT or OUTPUT
-  pinMode(pin1, );
-  pinMode(pin2, );
+  pinMode(pin1,OUTPUT );
+  pinMode(pin2,OUTPUT );
 }
 
 void loop() {
   //Make the first LED turn on and the second off. Keep that state for 1 second.
-  digitalWrite(pin1, );
-  digitalWrite(pin2, );
-  delay();              
+  digitalWrite(pin1,HIGH );
+  digitalWrite(pin2,LOW );
+  delay(1000);              
   
   //Make the first LED turn off and the second on. Keep that state for 1 second.
-  digitalWrite(pin1, );  
-  digitalWrite(pin2, );    
-  delay();
+  digitalWrite(pin1,LOW );  
+  digitalWrite(pin2,HIGH );    
+  delay(1000);
 }
