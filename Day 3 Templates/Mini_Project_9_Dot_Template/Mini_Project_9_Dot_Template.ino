@@ -1,7 +1,7 @@
-//                Mini Project: A dot
+//                       Mini Project: A dot
 // Create a dot with an x of 20 and a y of 50
 //
-//                            Things to Rememeber
+//                       Things to Rememeber
 // display.drawPixel(x,y,color) - makes a dot at point (x,y) with a certain color
 // display.display() - makes the changes to the OLED display visible
 // display.clearDisplay() - delets everything on the display

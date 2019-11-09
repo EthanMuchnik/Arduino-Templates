@@ -1,4 +1,5 @@
-// Make a mini police siren. Lights should be alternating while the buzzer buzzes. 
+//                           Project: Police Car B
+// Make a mini police siren. Lights should be alternating while the buzzer buzzes. This should only happen when the button is pressed.
 //
 //                            Things to Rememeber
 // HIGH makes electricity go. LOW makes no electricity go.

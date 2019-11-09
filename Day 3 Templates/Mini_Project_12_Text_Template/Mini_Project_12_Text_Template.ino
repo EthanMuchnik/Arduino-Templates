@@ -1,4 +1,4 @@
-//             Mini Project: Text
+//                            Mini Project: Text
 //  Look at how text was made. Now make White text at point x = 10 and y = 40, with a size of 1. The text should say "Hello OLED display 
 
 //                            Things to Rememeber
