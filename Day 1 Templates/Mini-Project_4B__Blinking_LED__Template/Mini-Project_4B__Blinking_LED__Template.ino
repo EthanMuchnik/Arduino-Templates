@@ -1,4 +1,4 @@
-//                          Mini Project: Blink LED
+//                          Mini Project: Blinking LED
 // Your code should make an LED turn on and off. It should switch states every second and run forever.
 
 //                            Things to Rememeber
@@ -14,15 +14,15 @@
 
 
 
-int pin = 6;// Write the pin that your wire is plugged into. (2-13)
+int pin = ;// Write the pin that your wire is plugged into. (2-13)
 
 void setup() {
-  pinMode(pin,OUTPUT );// Write Input or Output. 
+  pinMode(pin, );// Write Input or Output. 
 }
 
 void loop() {
-  digitalWrite(pin,HIGH );   // turn the LED on. Write HIGH or LOW. 
-  delay(1000);                       // Keep the light turned on for 1 seconds. Write a number
-  digitalWrite(pin,HIGH );    // turn the LED on. Write HIGH or LOW. 
-  delay(1000);                   // Keep the light turned off for 1 seconds. Write a number               
+  digitalWrite(pin, );   // turn the LED on. Write HIGH or LOW. 
+  delay();                       // Keep the light turned on for 1 seconds. Write a number
+  digitalWrite(pin, );    // turn the LED on. Write HIGH or LOW. 
+  delay();                   // Keep the light turned off for 1 seconds. Write a number               
 }

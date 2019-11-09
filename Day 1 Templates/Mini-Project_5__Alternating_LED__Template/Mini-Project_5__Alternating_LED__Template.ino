@@ -1,4 +1,4 @@
-//                          Mini Project: Blink LED
+//                          Mini Project: Alternating LED
 // Your code should make an LED turn on and off. It should switch states every second and run forever.
 
 //                            Things to Rememeber
@@ -14,23 +14,23 @@
 
 
 //Write the pin that your wire is plugged into. (2-13)
-int pin1 = 6;
-int pin2 = 3;
+int pin1 = ;
+int pin2 = ;
 
 void setup() {
   // Set the mode of the pins to INPUT or OUTPUT
-  pinMode(pin1,OUTPUT );
-  pinMode(pin2,OUTPUT );
+  pinMode(pin1, );
+  pinMode(pin2, );
 }
 
 void loop() {
   //Make the first LED turn on and the second off. Keep that state for 1 second.
-  digitalWrite(pin1,HIGH );
-  digitalWrite(pin2,LOW );
-  delay(1000);              
+  digitalWrite(pin1, );
+  digitalWrite(pin2, );
+  delay();              
   
   //Make the first LED turn off and the second on. Keep that state for 1 second.
-  digitalWrite(pin1,LOW );  
-  digitalWrite(pin2,HIGH );    
-  delay(1000);
+  digitalWrite(pin1, );  
+  digitalWrite(pin2, );    
+  delay();
 }

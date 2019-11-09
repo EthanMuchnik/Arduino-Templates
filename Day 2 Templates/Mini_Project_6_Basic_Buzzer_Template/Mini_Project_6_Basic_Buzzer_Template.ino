@@ -1,4 +1,4 @@
-//                        Mini Project: Blink LED
+//                        Mini Project: Basic Buzzer
 // Your code should make the buzzer play a note. 
 //If you have more time, try to make the buzzer play a 5 note song with each note being a different length
 
