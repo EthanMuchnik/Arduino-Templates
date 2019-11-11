@@ -20,7 +20,7 @@ void setup() {
   Serial.begin(9600);
   
   pinMode(buttonPin, OUTPUT);
-  pinMode(readPin, INPUT); // A read pin need INPUT put in instead of output
+  pinMode(readPin, INPUT); // A read pin need INPUT put in instead of OUTPUT
 }
 
 void loop() {
