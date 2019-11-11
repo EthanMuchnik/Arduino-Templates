@@ -17,7 +17,7 @@
 int pin =;// Write the pin that your wire is plugged into. (2-13)
 
 void setup() {
-  pinMode(pin, );// Write Input or Output. 
+  pinMode(pin, );// Write INPUT or OUTPUT. 
 }
 
 void loop() {
