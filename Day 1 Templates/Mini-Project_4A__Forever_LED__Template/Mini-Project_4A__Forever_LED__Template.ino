@@ -14,12 +14,12 @@
 
 
 
-int pin = ;// Write the pin that your wire is plugged into. (2-13)
+int pin =13 ;// Write the pin that your wire is plugged into. (2-13)
 
 void setup() {
-  pinMode(pin,);// Write Input or Output. 
+  pinMode(pin,OUTPUT);// Write Input or Output. 
 }
 
 void loop() {
-  digitalWrite(pin,);   // turn the LED on. Write HIGH or LOW.
+  digitalWrite(pin,HIGH);   // turn the LED on. Write HIGH or LOW.
 }
