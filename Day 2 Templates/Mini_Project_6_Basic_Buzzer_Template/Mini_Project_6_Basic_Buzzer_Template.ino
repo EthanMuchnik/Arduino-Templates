@@ -11,8 +11,8 @@
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
-int pin = 13;
-int frequency = 10;
+int pin = 5;
+int frequency = 3000;
 
 void setup() {
   //nothing to setup
