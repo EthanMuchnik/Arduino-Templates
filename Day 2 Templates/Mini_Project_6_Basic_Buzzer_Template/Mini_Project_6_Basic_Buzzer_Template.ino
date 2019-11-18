@@ -3,9 +3,9 @@
 //If you have more time, try to make the buzzer play a 5 note song with each note being a different length
 
 //                            Things to Rememeber
-// Delay: Countinues the current action for a certain emount of miliseconds
+// delay: Countinues the current action for a certain emount of miliseconds: delay(miliseconds)
 // tone: Takes in the pin and then the frequency: tone(pin, frequency)
-// noTone: This simply ends your song/buzz. noTone(pin)
+// noTone: This simply ends your song/buzz: noTone(pin)
 
 //Setup Runs Once
 //Loop never stops running
