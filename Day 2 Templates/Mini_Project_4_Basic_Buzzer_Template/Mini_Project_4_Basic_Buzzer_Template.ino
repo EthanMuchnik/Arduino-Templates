@@ -1,11 +1,12 @@
 //                        Mini Project: Basic Buzzer
-// Your code should make the buzzer play a note. 
-//If you have more time, try to make the buzzer play a 5 note song with each note being a different length
+// 1. This code should make the buzzer play a note. Try to change the frequency and see what happens.
+
+// 2. After that, try to use the noTone()command to end your song after 5 seconds
 
 //                            Things to Rememeber
-// delay: Countinues the current action for a certain emount of miliseconds: delay(miliseconds)
-// tone: Takes in the pin and then the frequency: tone(pin, frequency)
-// noTone: This simply ends your song/buzz: noTone(pin)
+// delay(miliseconds): Countinues the current action for a certain amount of miliseconds      ||     1000 miliseconds = 1 seconds
+// tone(pin, frequency): Takes in the pin and then the frequency to play a certain note
+// noTone(pin): This simply ends your song/buzz
 
 //Setup Runs Once
 //Loop never stops running
@@ -14,11 +15,13 @@
 int pin = 5;
 int frequency = 3000;
 
-void setup() {
+void setup() 
+{
   //nothing to setup
 }
 
-void loop() {
+void loop() 
+{
   //  Play a note at any frequency. See what happens when you change it. P.S only go between 50 and 13000. Write the correct variables in the function.
   tone(pin,frequency);
 }

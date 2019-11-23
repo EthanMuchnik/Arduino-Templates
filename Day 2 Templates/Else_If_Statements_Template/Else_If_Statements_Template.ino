@@ -8,7 +8,18 @@
 //{
 //  Do something;
 //}
-// Serial.begin(): Sets up the printing area
+
+// else if(Check something else)
+//{
+//  Do something else
+//}
+
+//else
+//{
+//  Do Something else
+//}
+
+// Serial.begin(:) Sets up the printing area
 // Serial.println(): prints anything you put into it
 
 
@@ -16,17 +27,26 @@
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
-int age = 1;
+int age = 4;
 
 void setup() 
 {
   Serial.begin(9600);
 }
 
-void loop()
+void loop() 
 {
   if(age == 1) //Tests if age is equal to one. There are two equal signs because you are checking, not assigning
   {
     Serial.println("I am 1 year old");//If the statement is true, do what is inside of the curly brackets
+  }
+  else if(age == 2)//Tests if age is equal to two. There are two equal signs because you are checking, not assigning
+  {
+    Serial.println("I am 2 years old");//If the statement is true, do what is inside of the curly brackets
+  }
+
+  else //If none of the previous statements are true, run what is inside of these curly brackets
+  {
+    Serial.println("I am not 1 or 2 years old");
   }
 }

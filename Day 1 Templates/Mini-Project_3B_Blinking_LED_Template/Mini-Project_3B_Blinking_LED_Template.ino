@@ -16,11 +16,13 @@
 
 int pin = ;   // Write the pin that your wire is plugged into (2-13).
 
-void setup() {
+void setup() 
+{
   pinMode(pin, );   // Write INPUT or OUTPUT. 
 }
 
-void loop() {
+void loop() 
+{
   digitalWrite(pin, );   // Turn the LED on. Write HIGH or LOW. 
   delay();                       // Keep the light turned on for 1 second. Write a number.
   digitalWrite(pin,);    // Turn the LED on. Write HIGH or LOW. 
