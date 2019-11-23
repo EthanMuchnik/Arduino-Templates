@@ -1,24 +1,15 @@
-#define PIN_BUZZER 7
-#define PIN_ADD 3
+//Everything written on the same line after two forward slashes is not actual code.
+//These are just comments where you can read instructions or take notes to explain what your code does.
 
-bool running = true;
-
-int frequency = 10;
-
-void add() {
-  if(frequency < 100) frequency += 10;
-}
+//                    WHAT IS THIS TEMPLATE?
+//This is a blank template that will be standard for all Arduino Code.
 
 void setup() {
-  pinMode(PIN_BUZZER, OUTPUT);
-  pinMode(PIN_ADD, INPUT);
-
-  Serial.begin(9600);
-
-  attachInterrupt(digitalPinToInterrupt(PIN_ADD), add, RISING);
+  // The arduino only does what is inside of the function once.
+  // The code should be in between the two curly brackets.   
 }
 
 void loop() {
-  Serial.println(frequency);
-  tone(PIN_BUZZER, frequency);
+  // The arduino keeps repeating the code inside of this function. 
+  // The code should be in between the two curly brackets.   
 }

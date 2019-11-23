@@ -1,9 +1,9 @@
-//                         Serial Template
+//                            Serial Template
 // Standard Serial printing template
 
 //                            Things to Rememeber
-// Serial.begin() Sets up the printing area
-// Serial.println(): prints anything you put into it
+// Serial.begin(9600): Sets up the printing area
+// Serial.println(): prints anything you put inside of the parenthesis
 
 
 //Setup Runs Once
