@@ -2,14 +2,15 @@ int blueLEDPin = 2;
 int redLEDPin = 3;
 int buzzerPin = 4; 
 
-void setup() {
+void setup() 
+{
   pinMode(blueLEDPin, OUTPUT ); 
   pinMode(redLEDPin, OUTPUT);
   pinMode(buzzerPin, OUTPUT);
 }
 
-void loop() {
-   
+void loop()
+{
   tone(buzzerPin, 1000);
   digitalWrite(blueLEDPin, HIGH);
   digitalWrite(redLEDPin, LOW);

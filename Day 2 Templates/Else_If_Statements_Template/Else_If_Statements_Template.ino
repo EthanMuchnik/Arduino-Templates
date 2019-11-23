@@ -1,7 +1,8 @@
-//                         If-Statement Template
-// This is a simple if statement template.
+//                         Else If-Statement Template
+// This is a else if statement template.
 
 // After running the code change the value of age. See if you get the same result.
+// Try to understand why your getting certain results
 
 //                            Things to Rememeber
 // if(Check something)
@@ -11,15 +12,15 @@
 
 // else if(Check something else)
 //{
-//  Do something else
+//  Do something else;
 //}
 
 //else
 //{
-//  Do Something else
+//  Do Something else;
 //}
 
-// Serial.begin(:) Sets up the printing area
+// Serial.begin(): Sets up the printing area
 // Serial.println(): prints anything you put into it
 
 
@@ -27,7 +28,7 @@
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
-int age = 4;
+int age = 3;
 
 void setup() 
 {
