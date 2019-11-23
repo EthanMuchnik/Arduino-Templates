@@ -1,29 +1,32 @@
 //                Project: Police Car A
-// Make a mini police siren. Lights should be alternating while the buzzer buzzes. 
+// Make a mini police siren. 
+//        - Two LEDs(Blue and Red) should go from being on and off 
+          - While a buzzer goes from a high frequency to a low frequncy
+          - This shoud go on forever
 //
 //                            Things to Rememeber
-// HIGH makes electricity go. LOW makes no electricity go.
-// OUTPUT: Make electricity flow. INPUT reads the amount of electricity flowing       
-// pinMode(): makes a pin  an INPUT or OUTPUT. Always goes in setup 
-// digitialWrite(): Makes a pin HIGH or LOW. Usually goes in loop
-// Delay(miliseconds): Keeps the same state for a certain amount of time
+// HIGH: makes electricity go.            LOW: makes no electricity go.
+// OUTPUT: Make electricity flow.         INPUT: reads the amount of electricity flowing       
+// delay(miliseconds): Countinues the current action for a certain amount of miliseconds      ||     1000 miliseconds = 1 second
+// pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
+// digitalWrite(pin, HIGH/LOW): Makes a pin Output HIGH or LOW. 
 // If the button is pressed 1 is printed. Otherwise 0 is printed.
 
 
 
-//Make the LED1, LED2 and Buzzer pin variables
+//Make the BlueLED, RedLED and Buzzer pin variables
 
 void setup() {
-  //Set the pinMode of LED1, LED2 and Buzzer pins
+  //Set the pinMode of BlueLED, RedLED and Buzzer pins
 }
 
 void loop() { 
-  //  First make the buzzer buzz 
+  //  First make the buzzer buzz at a certain frequency
   //  The first LED on, 
   //  The second LED off
   //  Keep that state for a certain time
   
-  //  First make the buzzer buzz at a differen frequency
+  //  First make the buzzer buzz at a different frequency
   //  The first LED off, 
   //  The second LED on
   //  Keep that state for a certain time
