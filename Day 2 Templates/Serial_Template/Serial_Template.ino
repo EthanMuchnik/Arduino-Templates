@@ -1,17 +1,23 @@
 //                            Serial Template
 // Standard Serial printing template. 
 
-//Try putting different numbers or variables inside. You can also put in words if they are "surrounded by quotaion marks".
+//                            Things to Rememeber:
 
-//                            Things to Rememeber
-// Serial.begin(): Sets up the printing area
-// Serial.println(): prints anything you put inside of the parenthesis
+// Int format:            int variableName = number;
+// String format:         String variableName = “word”;
+
+// Serial.begin(9600): Sets up the printing area
+// Serial.println(word/number/variable): prints anything you put inside of the parenthesis
 
 
 //Setup Runs Once
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
+
+
+// Make your variable of an int
+// Make your variable of a String
 void setup() 
 {
   Serial.begin(9600);
@@ -19,7 +25,12 @@ void setup()
 
 void loop()
 {
-  Serial.println(1);
+  
+  Serial.println(); // Print an int
+  Serial.println(); // Print a String
+  Serial.println(); // Print the int variable
+  Serial.println(); // Print the String variable
+  
 // In order to see what you just printed press (Ctrl+Shift+M)
 // If you see nothing there, make the middle rectangle say 9600 baud
 }
