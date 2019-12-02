@@ -7,6 +7,8 @@
 // delay(miliseconds): Countinues the current action for a certain amount of miliseconds      ||     1000 miliseconds = 1 second
 // pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
 // digitalWrite(pin, HIGH/LOW): Makes a pin Output HIGH or LOW. 
+// Int format:            int variableName = number;
+
 
 //setup(): Runs once
 //loop(): Never stops running

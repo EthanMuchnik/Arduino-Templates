@@ -20,6 +20,9 @@
 //  Do Something else;
 //}
 
+// Int format:            int variableName = number;
+// String format:         String variableName = “word”;
+
 // Serial.begin(): Sets up the printing area
 // Serial.println(): prints anything you put into it
 

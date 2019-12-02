@@ -8,7 +8,11 @@
 //{
 //  Do something;
 //}
-// Serial.begin(): Sets up the printing area
+
+// Int format:            int variableName = number;
+// String format:         String variableName = “word”;
+
+// Serial.begin(9600): Sets up the printing area
 // Serial.println(): prints anything you put into it
 
 
