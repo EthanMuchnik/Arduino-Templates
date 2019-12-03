@@ -1,5 +1,12 @@
 //                            Serial Template
-// Standard Serial printing template. 
+// Standard Serial printing template. You can delete uneccesary code for each part of this exercise
+
+//   1. Print an int
+//   2. Print a String
+//   3. Print an int variable
+//   3. Print a String variable
+
+
 
 //                            Things to Rememeber:
 
