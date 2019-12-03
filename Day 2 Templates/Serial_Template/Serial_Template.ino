@@ -20,9 +20,9 @@
 // Serial.begin(9600): Sets up the printing area
 // Serial.println(word/number/variable): prints anything you put inside of the parenthesis
 
-//Setup Runs Once
-//Loop never stops running
-//declare variables that are used in both functions outside of them
+// Setup Runs Once
+// Loop never stops running
+// declare variables that are used in both functions outside of them
 
 
 

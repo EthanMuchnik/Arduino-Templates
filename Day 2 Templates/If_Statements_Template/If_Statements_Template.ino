@@ -9,9 +9,9 @@
 
 //                            Things to Rememeber
 // if(Check something)
-//{
-//  Do something;
-//}
+// {
+//   Do something;
+// }
 
 // Int format:            int variableName = number;
 // String format:         String variableName = “word”;
@@ -19,11 +19,9 @@
 // Serial.begin(9600): Sets up the printing area
 // Serial.println(): prints anything you put into it
 
-
-//Setup Runs Once
-//Loop never stops running
-//declare variables that are used in both functions outside of them
-
+// Setup Runs Once
+// Loop never stops running
+// declare variables that are used in both functions outside of them
 
 
 
