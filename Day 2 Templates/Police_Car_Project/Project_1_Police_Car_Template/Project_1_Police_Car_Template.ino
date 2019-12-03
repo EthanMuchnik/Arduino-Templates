@@ -2,7 +2,8 @@
 // Make a mini police siren. 
 //        - Two LEDs(Blue and Red) should go from being on and off 
 //        - While a buzzer goes from a high frequency to a low frequncy
-//        - This shoud go on forever
+//        - THis should happen every 0.2 seconds(200 miliseconds)
+//        - This should go on forever
 //
 
 
@@ -13,35 +14,44 @@
 // pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
 // digitalWrite(pin, HIGH/LOW): Makes a pin Output HIGH or LOW. 
 // tone(pin, frequency): Takes in the pin and then the frequency to play a certain note
-// pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
+// noTone(pin): This simply ends your song/buzz
 
 // Int format:            int variableName = number;
 // String format:         String variableName = “word”;
 
-//Setup Runs Once
-//Loop never stops running
-//declare variables that are used in both functions outside of them
-
-//Make the BlueLED, RedLED and Buzzer pin variables
+// Setup Runs Once
+// Loop never stops running
+// declare variables that are used in both functions outside of them
 
 
 
 
+// Make the BlueLED, RedLED and Buzzer pin variables
 
 void setup() 
 {
   //Set the pinMode of BlueLED, RedLED and Buzzer pins
+
 }
 
 void loop() 
 { 
-  //  First make the buzzer buzz at a certain frequency
-  //  The first LED on, 
+  //  First make the buzzer buzz at a high frequency
+
+  //  The first LED on
+
   //  The second LED off
+
   //  Keep that state for a certain time
+
+
   
-  //  First make the buzzer buzz at a different frequency
-  //  The first LED off, 
+  //  First make the buzzer buzz at a lower frequency
+
+  //  The first LED off 
+
   //  The second LED on
+
   //  Keep that state for a certain time
+
 }

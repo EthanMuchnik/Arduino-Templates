@@ -30,9 +30,9 @@
 // Serial.println(): prints anything you put into it
 
 
-//Setup Runs Once
-//Loop never stops running
-//declare variables that are used in both functions outside of them
+// Setup Runs Once
+// Loop never stops running
+// declare variables that are used in both functions outside of them
 
 
 
