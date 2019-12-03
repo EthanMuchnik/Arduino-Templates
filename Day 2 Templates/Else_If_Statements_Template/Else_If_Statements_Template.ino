@@ -6,22 +6,23 @@
 
 
 
+
 //                            Things to Rememeber
 // if(Check something)
-//{
-//  Do something;
-//}
+// {
+//   Do something;
+// }
 
 // else if(Check something else)
-//{
-//  Do something else;
-//}
+// {
+//   Do something else;
+// }
 
-//else
-//{
-//  Do Something else;
-//}
-
+// else
+// {
+//   Do Something else;
+// }
+ 
 // Int format:            int variableName = number;
 // String format:         String variableName = “word”;
 
@@ -37,8 +38,7 @@
 
 
 
-
-int age = 2;
+int age = 1;
 
 void setup() 
 {
