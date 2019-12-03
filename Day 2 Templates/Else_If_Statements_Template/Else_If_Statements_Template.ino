@@ -31,7 +31,12 @@
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
-int age = 3;
+
+
+
+
+
+int age = 2;
 
 void setup() 
 {

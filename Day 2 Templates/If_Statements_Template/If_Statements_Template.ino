@@ -1,7 +1,11 @@
 //                         If-Statement Template
 // This is a simple if statement template.
 
-// After running the code change the value of age. See if you get the same result.
+// 1. After running the code change the value of age. See if you get the same result.
+// Try to understand why your getting certain results
+
+
+
 
 //                            Things to Rememeber
 // if(Check something)
@@ -19,6 +23,10 @@
 //Setup Runs Once
 //Loop never stops running
 //declare variables that are used in both functions outside of them
+
+
+
+
 
 int age = 1;
 

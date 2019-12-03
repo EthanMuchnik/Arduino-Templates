@@ -1,9 +1,11 @@
-//                Project: Police Car
+//                             Project: Police Car
 // Make a mini police siren. 
 //        - Two LEDs(Blue and Red) should go from being on and off 
 //        - While a buzzer goes from a high frequency to a low frequncy
 //        - This shoud go on forever
 //
+
+
 //                            Things to Rememeber
 // HIGH: makes electricity go.            LOW: makes no electricity go.
 // OUTPUT: Make electricity flow.         INPUT: reads the amount of electricity flowing       
@@ -13,11 +15,18 @@
 // tone(pin, frequency): Takes in the pin and then the frequency to play a certain note
 // pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
 
+// Int format:            int variableName = number;
+// String format:         String variableName = “word”;
+
 //Setup Runs Once
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
 //Make the BlueLED, RedLED and Buzzer pin variables
+
+
+
+
 
 void setup() 
 {
