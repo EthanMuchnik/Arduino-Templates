@@ -1,7 +1,7 @@
 //                        Mini Project: Basic Buzzer
 // 1. This code should make the buzzer play a note. Try to change the frequency and see what happens.
 
-// 2. After that, try to use the noTone()command to end your song after 5 seconds
+// 2. After that, try to use the noTone()command to end your song after 5 seconds. Hint: You have to use setup.
 
 
 
