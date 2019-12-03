@@ -1,10 +1,14 @@
 //                            Serial Template
 // Standard Serial printing template. You can delete uneccesary code for each part of this exercise
 
-//   1. Print an int
-//   2. Print a String
-//   3. Print an int variable
-//   3. Print a String variable
+//  1.
+//   a. Print an int
+//   b. Print a String
+//   c. Print an int variable
+//   d. Print a String variable
+//
+//  2. Instead of looping through the print statements make them print only one time. Hint: You will have to use setup()
+
 
 
 
@@ -16,15 +20,17 @@
 // Serial.begin(9600): Sets up the printing area
 // Serial.println(word/number/variable): prints anything you put inside of the parenthesis
 
-
 //Setup Runs Once
 //Loop never stops running
 //declare variables that are used in both functions outside of them
 
 
 
+
 // Make your variable of an int
+
 // Make your variable of a String
+
 void setup() 
 {
   Serial.begin(9600);
