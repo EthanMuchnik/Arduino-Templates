@@ -10,7 +10,7 @@
 //                            Things to Rememeber
 // HIGH: makes electricity go.            LOW: makes no electricity go.
 // OUTPUT: Make electricity flow.         INPUT: reads the amount of electricity flowing       
-// delay(milliseconds): Countinues the current action for a certain amount of milliseconds      ||     1000 milliseconds = 1 second
+// delay(miliseconds): Countinues the current action for a certain amount of miliseconds      ||     1000 miliseconds = 1 second
 // pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
 // digitalWrite(pin, HIGH/LOW): Makes a pin Output HIGH or LOW. 
 // tone(pin, frequency): Takes in the pin and then the frequency to play a certain note
