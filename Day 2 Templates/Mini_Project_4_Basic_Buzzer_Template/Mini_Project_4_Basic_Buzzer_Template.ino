@@ -9,7 +9,7 @@
 
 //                            Things to Rememeber:
 
-// delay(miliseconds): Countinues the current action for a certain amount of miliseconds      ||     1000 miliseconds = 1 second
+// delay(milliseconds): Countinues the current action for a certain amount of milliseconds      ||     1000 milliseconds = 1 second
 // tone(pin, frequency): Takes in the pin and then the frequency to play a certain note
 // noTone(pin): This simply ends your song/buzz
 // pinMode(pin, OUPUT/INPUT): makes a pin  an INPUT or OUTPUT. 
