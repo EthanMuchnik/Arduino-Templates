@@ -1,10 +1,11 @@
 //                            Mini Project: A Line
-// Create a line which starts at x = 20 an y = 30. It ends with x = 40 and y = 50.
+// Create a line which starts at x = 20 an y = 30. It ends with x = 40 and y = 50. The line should be white.
 //
 //                            Things to Rememeber
-// display.drawLine(x1,y1,x2,y2,color) - makes a line starting at point (x1,y1) and ending at point (x2,y2). It has a specified color
+// display.drawLine(x1,y1,x2,y2,BLACK/WHITE) - makes a line starting at point (x1,y1) and ending at point (x2,y2). It has a specified color
 // display.display() - makes the changes to the OLED display visible
 // display.clearDisplay() - delets everything on the display
+// delay(milliseconds): Countinues the current action for a certain amount of milliseconds      ||     1000 milliseconds = 1 second
 
 
 #include "SPI.h"
@@ -26,9 +27,12 @@ void setup() {
     Serial.println(F("SSD1306 allocation failed"));
     for(;;);
   }
-  //Clear the display, 
+  //Clear the display
+   
   //Create the line
+  
   //Display the line  
+  
 }
 
 void loop() {

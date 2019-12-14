@@ -3,11 +3,12 @@
 
 //                            Things to Rememeber
 // display.println(Words) - puts any text into the display in between the parenthesis. 
-// display.setTextSize(Number)- It makes the the text bigger or smaller.
-// display.setTextColor(color) - It makes the text a certain color based on what is inside of the parenthesis. 
+// display.setTextSize(Number)- It makes the the text bigger or smaller. From 1-10 are the only practical sizes
+// display.setTextColor(BLACK/WHITE) - It makes the text a certain color based on what is inside of the parenthesis. 
 // display.setCursor(x,y) - Specified the left top point where the text will start. 
 // display.display() - makes the changes to the OLED display visible
 // display.clearDisplay() - delets everything on the display
+// delay(milliseconds): Countinues the current action for a certain amount of milliseconds      ||     1000 milliseconds = 1 second
 
 #include "SPI.h"
 #include "Wire.h"

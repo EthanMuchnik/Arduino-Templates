@@ -2,7 +2,7 @@
 #include "SPI.h"
 #include "Wire.h"
 #include "Adafruit_GFX.h"
-#include "Adafruit_SSD1306.h"
+#include "Adafruit_SSD1306."h
 
 //The size of a display.
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
@@ -23,7 +23,9 @@ void setup() {
     Serial.println(F("SSD1306 allocation failed"));
     for(;;); // Don't proceed, loop forever
   }
-  //Next slide
+
+  
+  //Next slide material
   display.display();
 }
 

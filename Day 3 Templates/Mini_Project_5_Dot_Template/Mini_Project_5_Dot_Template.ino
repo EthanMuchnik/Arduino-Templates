@@ -1,10 +1,11 @@
 //                       Mini Project: A dot
-// Create a dot with an x of 20 and a y of 50
+// Create a dot with an x of 20, a y of 50 and a color of WHITE
 //
 //                       Things to Rememeber
-// display.drawPixel(x,y,color) - makes a dot at point (x,y) with a certain color
+// display.drawPixel(x,y,BLACK/WHITE) - makes a dot at point (x,y) with a certain color
 // display.display() - makes the changes to the OLED display visible
 // display.clearDisplay() - delets everything on the display
+// delay(milliseconds): Countinues the current action for a certain amount of milliseconds      ||     1000 milliseconds = 1 second
 
 
 #include "SPI.h"
@@ -27,9 +28,12 @@ void setup() {
     Serial.println(F("SSD1306 allocation failed"));
     for(;;); 
   }
-  //Clear the display, 
+  //Clear the display
+
   //Create the dot
+  
   //Display the dot  
+  
 }
 
 void loop() {
